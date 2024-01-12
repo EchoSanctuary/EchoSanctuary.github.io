@@ -223,8 +223,8 @@ img.glow {
 
 h3#red {
     margin-top: 100px;
-    color: red;
-        text-shadow: 1px 1px 10px red;
+    color: darkslateblue;
+        text-shadow: 1px 1px 10px darkslateblue;
     font-size: 30px;
     font-family: 'Courier New', monospace;
     margin-left: 70px;
@@ -232,6 +232,16 @@ h3#red {
     margin-bottom: 150px;
     text-decoration: underline;
     max-width: 800px;
+}
+
+h3#blue {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: aliceblue;
+        text-shadow: 1px 1px 10px aliceblue;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    max-width: 852px;
 }
 
 h3#news {
@@ -255,4 +265,12 @@ div#substack-feed-embed {
 
 div#twitter-follow-button {
     margin-bottom: 30px;
+}
+
+img#book {
+    border-radius: 5px;
+    border: white solid 10px;
+      box-shadow: 0px 0px 50px #fff;
+    height: 266px;
+    width: 426px;
 }
